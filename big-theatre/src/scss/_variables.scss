@@ -1,0 +1,34 @@
+$bg-clr: #E5E5E5;
+$gld-clr: #D1A954;
+$txt-clr: #FFF;
+
+%big-title-font{
+  color: $txt-clr;
+  font-family: 'OpenSansCondensed-Light', sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+%small-title-font{
+  color: $txt-clr;
+  font-family: 'OpenSansCondensed-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+%text-font{
+  color: $txt-clr;
+  font-family: 'OpenSans-Regular', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+}

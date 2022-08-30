@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"en",
+"title":"big-theatre",
+"description":"Gulp pack for easy html/php markup development",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+	@@include('components/page-blocks/_header.html')
+
+	<main class="main">
+		<div class="arrowTop" hidden></div>
+
+		<section class="about-section" id="about">
+			<div class="container">
+				<h1 class="about-section-title">о театре</h1>
+				<div class="about-section__inner">
+
+					<div class="about-section__article">
+						<h4 class="about-section__article-title">Самый лучший театр СПБ</h4>
+						<p class="about-section__article-text">Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год
+						</p>
+					</div>
+
+					<div class="about-section__statisctics">
+						<h4 class="about-section__statisctics-title">немного о цифрах</h4>
+						<div class="about-section__statisctics-info">
+							<div class="about-section__statisctics-seats">
+								<p><span>1600</span> посадочный мест</p>
+							</div>
+							<div class="about-section__statisctics-history">
+								<p><span>350</span> лет истории</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="about-section__image"></div>
+
+				</div>
+
+			</div>
+		</section>
+
+		<section class="product-section" id="product">
+			<div class="container">
+
+					<div class="product-section__inner">
+						<h1 class="product-section__inner-title"><span>наши</span> постановки</h1>
+							<div class="product-section__slider">
+								<a class="product-section__slider-item" href="#">
+										<p class="product-section__slider-title">ОСКАР 2020</p>
+										<p class="product-section__slider-date">сентябрь 2020</p>
+				            <img class="product-section__slider-img" src="img/slider/slider-item1.jpg" alt="ОСКАР 2020">
+			          </a>
+								<a class="product-section__slider-item" href="#">
+										<p class="product-section__slider-title">лето</p>
+										<p class="product-section__slider-date">август 2020</p>
+										<img class="product-section__slider-img" src="img/slider/slider-item2.jpg" alt="">
+								</a>
+								<a class="product-section__slider-item" href="#">
+										<p class="product-section__slider-title">золотой грамофон</p>
+										<p class="product-section__slider-date">июль 2020</p>
+										<img class="product-section__slider-img" src="img/slider/slider-item3.jpg" alt="золотой грамофон">
+								</a>
+								<a class="product-section__slider-item" href="#">
+										<p class="product-section__slider-title">щелкунчик</p>
+										<p class="product-section__slider-date">май 2020</p>
+										<img class="product-section__slider-img" src="img/slider/slider-item4.jpg" alt="щелкунчик">
+								</a>
+							</div>
+					</div>
+
+			</div>
+		</section>
+
+		<div class="review-section">
+			<div class="review-section__years">
+				<ul>
+					<li>2018</li>
+					<li>2019</li>
+					<li>2020</li>
+				</ul>
+			</div>
+			<div class="review-section__wrapper">
+				<div class="review-section__rating">
+					<svg width="22" height="24" xmlns="http://www.w3.org/2000/svg">
+				    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 24" id="star">
+				        <path d="M11 0L7.59986 7.90286L0 9.16286L5.5 15.3171L4.19973 24L11 19.9029L17.8003 24L16.5 15.3171L22 9.17143L14.4001 7.90286L11 0Z" fill="#D1A954"/>
+				    </symbol>
+					</svg>
+					<p>
+				    <svg class="star-icon" width="22" height="24">
+				      <use xlink:href="#star"></use>
+				    </svg>
+				    <svg class="star-icon" width="22" height="24">
+				      <use xlink:href="#star"></use>
+				    </svg>
+				    <svg class="star-icon" width="22" height="24">
+				      <use xlink:href="#star"></use>
+				    </svg>
+				    <svg class="star-icon" width="22" height="24">
+				      <use xlink:href="#star"></use>
+				    </svg>
+				    <svg class="star-icon" width="22" height="24">
+				      <use xlink:href="#star"></use>
+				    </svg>
+					</p>
+				</div>
+				<p class="review-section__text"> Лучший театр <br>
+				по мнению театральных критиков Парижа </p>
+			</div>
+		</div>
+
+
+		<section class="partners-section" id="partners">
+			<div class="container">
+				<div class="partners-section__inner">
+					<h1 class="partners-section__inner-title"><span>партнеры</span> театра</h1>
+					<div class="partners-section__inner-logos">
+						<div class="partners-section__inner-logo"></div>
+						<div class="partners-section__inner-logo"></div>
+						<div class="partners-section__inner-logo"></div>
+						<div class="partners-section__inner-logo"></div>
+						<div class="partners-section__inner-logo"></div>
+						<div class="partners-section__inner-logo"></div>
+						<div class="partners-section__inner-logo"></div>
+						<div class="partners-section__inner-logo"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	@@include('components/page-blocks/_footer.html')
+	@@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>

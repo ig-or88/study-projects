@@ -1,0 +1,90 @@
+@media(min-width: 768px){
+  .container {
+    padding: 0 39px;
+  }
+
+  .header {
+    background-image: url('../img/header-img-medium.jpg');
+    &__inner-bottom {
+      padding: 169px 75px 252px 75px;
+    }
+  }
+
+  .info{
+    &__title {
+      font-size: 64px;
+      line-height: 87px;
+    }
+  }
+
+  .about-section {
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+      min-height: 292px;
+    }
+    &__article {
+      width: 445px;
+    }
+    &__article-text {
+      text-align: left;
+    }
+    &__statisctics {
+      width: 210px;
+    }
+    &__statisctics-info {
+      width: 288px;
+      display: flex;
+      flex-direction: column;
+    }
+    &__statisctics-seats {
+      margin-bottom: 25px;
+    }
+  }
+
+  .review-section {
+      background-image: url('../img/review-img-medium.jpg');
+      padding: 0 100px;
+      &__text {
+        font-size: 29px;
+        line-height: 44px;
+        max-width: 388px;
+      }
+  }
+
+  .form {
+    &__inner-top {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__inner-wrapper {
+      width: 100%;
+      margin-right: 30px;
+      margin-bottom: 0;
+      grid-gap: 30px;
+    }
+    &__inner-input {
+      width: 100%;
+      min-width: 180px;
+    }
+    &__inner-input.textarea-input {
+      width: 100%;
+    }
+    &__inner-bottom {
+      flex-direction: inherit;
+      justify-content: space-between;
+    }
+    &__inner-info {
+      width: 60%;
+      text-align: left;
+    }
+  }
+
+  .footer {
+    &__inner {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+}

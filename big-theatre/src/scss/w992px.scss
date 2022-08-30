@@ -1,0 +1,136 @@
+@media(min-width: 992px){
+  .container {
+    padding: 0 150px;
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+
+  .header, .about-section, .product-section, .review-section, .partners-section {
+    margin-bottom: 150px;
+  }
+
+  .header {
+    background-image: url('../img/header-img-large.jpg');
+    &__inner-top {
+      padding-top: 0;
+    }
+    &__inner-bottom {
+      padding: 231px 0 365px 0;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+
+  .info__text {
+    text-align: left;
+  }
+
+  .about-section {
+    &__article-text {
+      text-align: left;
+    }
+  }
+
+  .menu-desktop {
+    transform: translateX(0%);
+  }
+
+  .close-menu-btn, .open-menu-btn {
+    display: none;
+  }
+
+  .menu-mobile {
+    position: absolute;
+    background-color: inherit;
+    width: 100%;
+    padding: 50px 150px;
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0;
+    }
+    &__link {
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.1em;
+    }
+    &__social {
+      position: absolute;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 100%;
+      width: 100px;
+      padding: 37px;
+      background-color: #333333;
+      opacity: 0.75;
+      left: 0;
+      top: 0;
+    }
+    &__social-title {
+      display: block;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.1em;
+      padding-top: 80px;
+      padding-bottom: 170px;
+      margin: 0 auto;
+    }
+    &__social-title::after {
+      content: '';
+      position: absolute;
+      left: -27px;
+      top: 0;
+      transform: rotate(-90deg);
+      width: 80px;
+      height: 3px;
+      background-color: #C4C4C4;
+    }
+    &__social-links {
+      flex-direction: column;
+    }
+    &__social-link {
+      height: 26px;
+    }
+    &__social-link {
+      margin: 0 auto;
+      width: 25px;
+    }
+  }
+
+  .facebook-logo {
+    height: 26px;
+    width: 15px;
+  }
+  .instagram-logo {
+    height: 26px;
+    width: 26px;
+  }
+  .youtube-logo {
+    height: 18px;
+    width: 26px;
+  }
+  .vk-logo {
+    height: 14px;
+    width: 26px;
+  }
+
+  .contacts-header {
+    margin: 0 auto;
+    &__phone {
+      position: absolute;
+      top: 126px;
+    }
+  }
+
+  .review-section {
+    background-image: url('../img/review-img-desktop.jpg');
+    &__text {
+      font-size: 34px;
+      line-height: 51px;
+      max-width: 450px;
+    }
+    &__years {
+      margin-left: 80px;
+    }
+  }
+}
