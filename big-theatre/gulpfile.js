@@ -16,6 +16,7 @@ exports.webp = tasks.webp;
 exports.svg_sprite = tasks.svg_sprite;
 exports.ttf = tasks.ttf;
 exports.ttf2 = tasks.ttf2;
+exports.woff = tasks.woff;
 exports.bs_html = tasks.bs_html;
 exports.bs_php = tasks.bs_php;
 exports.watch = tasks.watch;
@@ -26,6 +27,7 @@ exports.default = gulp.parallel(
   exports.svg_css,
   exports.ttf,
   exports.ttf2,
+  exports.woff,
   exports.fonts,
   exports.style,
   exports.libs_js,
@@ -40,8 +42,9 @@ exports.default = gulp.parallel(
 exports.dev_php = gulp.parallel(
   exports.libs_style,
   // exports.svg_css,
-  // exports.ttf, // перетаскивает шрифты в build/fonts
-  // exports.ttf2, // перетаскивает шрифты в build/fonts
+  exports.ttf,
+  exports.ttf2,
+  exports.woff,
   exports.fonts,
   exports.style,
   exports.libs_js,
