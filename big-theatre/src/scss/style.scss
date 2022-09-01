@@ -3,9 +3,21 @@
 @import '**/_*.scss';
 @import '../components/**/*.scss';
 
+html {
+    scrollbar-width: thin;
+}
+html::-webkit-scrollbar {
+    width: 6px;
+    background-color: #444;
+  }
+html::-webkit-scrollbar-thumb {
+    background-color: $gld-clr;
+  }
+
 body {
   min-width: 320px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
   background-color: #333333;
 }
 
@@ -299,7 +311,7 @@ footer .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    overflow-x: auto;
+    overflow-x: hidden;
   }
   &__inner-title {
     @extend %big-title-font;
@@ -434,12 +446,20 @@ footer .container {
   }
   &__inner-logos {
     overflow-x: scroll;
+    scrollbar-width: thin;
     display: grid;
     grid-template-rows: 97px 97px;
     grid-template-columns: 200px 200px;
     grid-gap: 80px;
     grid-auto-columns: 200px;
     grid-auto-flow: column;
+  }
+  &__inner-logos::-webkit-scrollbar {
+    height: 6px;
+    background-color: #444;
+  }
+  &__inner-logos::-webkit-scrollbar-thumb {
+    background-color: $gld-clr;
   }
   &__inner-logo {
     background-image: url('../img/partner-logo1.svg');
