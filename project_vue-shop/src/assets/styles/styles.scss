@@ -1,0 +1,13 @@
+@import "./variables.scss";
+
+.btn {
+  padding: $padding $padding*2;
+  background: $btn-bg;
+  color: $btn-txt-clr;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.material-icons {
+  cursor: pointer;
+}

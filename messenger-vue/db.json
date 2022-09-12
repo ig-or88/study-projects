@@ -1,0 +1,216 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Igor",
+      "phone": "8-800-555-22-33",
+      "status": "online"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "phone": "8-800-888-22-33",
+      "status": "offline"
+    },
+    {
+      "id": 3,
+      "name": "Dom",
+      "phone": "8-800-232-22-33",
+      "status": "offline"
+    },
+    {
+      "id": 4,
+      "name": "Marina",
+      "phone": "8-800-777-22-33",
+      "status": "online"
+    },
+    {
+      "id": 5,
+      "name": "Miranda",
+      "phone": "8-800-241-22-33",
+      "status": "offline"
+    },
+    {
+      "id": 6,
+      "name": "Alex",
+      "phone": "8-800-241-22-33",
+      "status": "online"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "name": "Igor",
+      "chat": [
+        {
+          "id": 1,
+          "time": "19:10",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "14:14",
+          "text": "Im fine too ty!",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "14:42",
+          "text": "123",
+          "type": "own"
+        },
+        {
+          "id": 5,
+          "time": "14:43",
+          "text": "Hello",
+          "type": "own"
+        },
+        {
+          "id": 6,
+          "time": "18:14",
+          "text": "xdfd b",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "chat": [
+        {
+          "id": 1,
+          "time": "19:10",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dom",
+      "chat": [
+        {
+          "id": 1,
+          "time": "18:30",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "12:38",
+          "text": "Great!",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Marina",
+      "chat": [
+        {
+          "id": 1,
+          "time": "18:30",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 3,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "13:19",
+          "text": "By",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Miranda",
+      "chat": [
+        {
+          "id": 1,
+          "time": "18:20",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 4,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Alex",
+      "chat": [
+        {
+          "id": 1,
+          "time": "18:20",
+          "text": "Hi there! How r u doin'? ",
+          "type": "own"
+        },
+        {
+          "id": 2,
+          "time": "19:31",
+          "text": "Fine, and how r u?",
+          "type": "others"
+        },
+        {
+          "id": 4,
+          "time": "19:33",
+          "text": "I'm OK too :) ",
+          "type": "own"
+        },
+        {
+          "id": 4,
+          "time": "15:10",
+          "text": "dinner",
+          "type": "own"
+        }
+      ]
+    }
+  ]
+}
