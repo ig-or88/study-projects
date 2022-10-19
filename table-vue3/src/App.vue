@@ -1,19 +1,19 @@
 <template>
-  <MainWrapper/>
+  <MainWrapper />
 </template>
 
 <script>
-import MainWrapper from './components/MainWrapper.vue'
+import MainWrapper from "./components/MainWrapper.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    MainWrapper
+    MainWrapper,
   },
   data: () => {
-    return {}
+    return {};
   },
-}
+};
 </script>
 
 <style lang="scss">

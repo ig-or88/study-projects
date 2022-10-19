@@ -5,14 +5,6 @@
     <div class="row row__distance">{{ row_data.distance }}</div>
     <div class="row row__date">{{ row_data.date }}</div>
   </div>
-  <!-- <tbody class="table-row">
-    <tr class="table-row">
-      <td class="row row__name">{{ row_data.name }}</td>
-      <td class="row row__quantity">{{ row_data.quantity }}</td>
-      <td class="row row__distance">{{ row_data.distance }}</td>
-      <td class="row row__date">{{ row_data.date }}</td>
-    </tr>
-  </tbody> -->
 </template>
 
 <script>
@@ -21,10 +13,10 @@ export default {
   props: {
     row_data: {
       type: Object,
-      default: () => {}
-    }
-  }
-}
+      default: () => {},
+    },
+  },
+};
 </script>
 
 <style lang="scss">
@@ -37,6 +29,5 @@ export default {
   padding: 8px 16px;
   text-align: center;
   border-bottom: solid 1px #e7e7e7;
-
 }
 </style>
